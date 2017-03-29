@@ -62,11 +62,11 @@ function createButton() {
           //Adding class for targeting 
           sportImage.addClass("giphys");
 
-          // Appending the paragraph and image tag to the animalDiv
+          // Appending the paragraph and image tag to the gifsDiv
           gifsDiv.append(p).append(sportImage);
           // gifsDiv.append(sportImage);
 
-          // Prependng the animalDiv to the HTML page in the "#gifs-appear-here" div
+          // Prependng the sportsDiv to the HTML page in the "#gifs" div
          gifsDiv.prepend(sportImage);
         }
       });
